@@ -2,6 +2,9 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import VueSVGIcon from 'vue-svgicon'
+
+Vue.use(VueSVGIcon)
 
 Vue.config.productionTip = false
 
