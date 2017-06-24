@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <AppHeader/>
+    <Movie/>
   </div>
 </template>
 
@@ -8,11 +9,13 @@
 
 import Index from './components/Index'
 import AppHeader from './components/AppHeader'
+import Movie from './components/Movie'
 
 export default {
   name: 'app',
   components: {
     AppHeader,
+    Movie,
   }
 }
 </script>

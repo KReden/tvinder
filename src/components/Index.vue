@@ -1,15 +1,18 @@
 <template>
   <div class="index">
     We are going to put our awesome vue app in this
+
+    <movie></movie>
   </div>
 </template>
 
 <script>
+import Movie from './Movie'
 
 export default {
   name: 'index',
   components: {
-    
+    Movie
   }
 }
 </script>
