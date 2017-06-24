@@ -13,6 +13,91 @@
       "id": 3,
       "name": "Return of the Jedi",
       "url": "http://i.imgur.com/U0nh2pM.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Back To The Future",
+      "url": "http://i.imgur.com/heb9csO.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Monty Python's Life Of Brian",
+      "url": "http://i.imgur.com/F80AiGB.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Barbarella: Queen Of The Galaxy",
+      "url": "http://i.imgur.com/RTtVzIP.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Weird Science",
+      "url": "http://i.imgur.com/pP1aKU6.jpg"
+    },
+    {
+      "id": 8,
+      "name": "The Last Starfighter",
+      "url": "http://i.imgur.com/8Pzsq0z.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Back To The Future Part II",
+      "url": "http://i.imgur.com/lmGx6gv.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Boogie Nights",
+      "url": "http://i.imgur.com/ZEOgl4l.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Ghost In The Shell",
+      "url": "http://i.imgur.com/VOZRYhk.jpg"
+    },
+    {
+      "id": 12,
+      "name": "The Warriors",
+      "url": "http://i.imgur.com/FUOmqK8.jpg"
+    },
+    {
+      "id": 13,
+      "name": "500 Days Of Summer",
+      "url": "http://i.imgur.com/A2ucCjP.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Sin City",
+      "url": "http://i.imgur.com/iSjMn2I.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Army of Darkness",
+      "url": "http://i.imgur.com/V0gdrGt.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Inception",
+      "url": "http://i.imgur.com/pvwLvmX.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Die Hard",
+      "url": "http://i.imgur.com/RU53IPE.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Flash Gordon",
+      "url": "http://i.imgur.com/9e9Agsy.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Pulp Fiction",
+      "url": "http://i.imgur.com/W82IlBy.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Blade Runner",
+      "url": "http://i.imgur.com/PXggyu5.jpg"
     }
   ]
 }
