@@ -1,0 +1,18 @@
+{
+  "posters": [{
+      "id": 1,
+      "name": "Star Wars",
+      "url": "http://i.imgur.com/27vs3iD.jpg"
+    },
+    {
+      "id": 2,
+      "name": "The Empire Strikes Back",
+      "url": "http://i.imgur.com/iTFf3NA.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Return of the Jedi",
+      "url": "http://i.imgur.com/U0nh2pM.jpg"
+    }
+  ]
+}
