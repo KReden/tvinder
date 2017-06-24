@@ -2,6 +2,7 @@
   <div class="movies">
     <div class="movie-poster-container">
       <img class="movie-poster" v-bind:src="extractImageUrl">
+      <div class="movie-name">  {{ extractImageName }} </div>
     </div>
   </div>
 </template>
