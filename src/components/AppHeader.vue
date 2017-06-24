@@ -33,7 +33,7 @@ export default {
   justify-content: space-between;
   background-color: #04AC44;
   color: #FFF;
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 
 .header__data {

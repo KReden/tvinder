@@ -1,8 +1,8 @@
 <template>
   <div class="movies">
     <div class="movie-poster-container">
-      <img class="movie-poster" v-bind:src="extractImageUrl">
-      <div class="movie-name">  {{ extractImageName }} </div>
+      <img class="movie-poster" v-bind:src="extractImageUrl" v-bind:key="extractImageUrl">
+      <div class="movie-name">{{ extractImageName }}</div>
     </div>
   </div>
 </template>
@@ -32,9 +32,7 @@ export default {
 
       return self.image.name
     }
-
   },
-
 
 }
 
@@ -42,11 +40,16 @@ export default {
 
 <style>
 .movie-poster-container {
+  padding: .5em 0 1em 0;
   width: 30em;
   object-fit: cover;
   margin: 0 auto;
 }
 .movie-poster {
   height: 30em;
+}
+.movie-name {
+  padding: .5em;
+  font-size: 1.25em;
 }
 </style>
