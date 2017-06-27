@@ -2,10 +2,13 @@
   <div id="app">
     <AppHeader />
     <Movies :image="image" />
+    <Actions />
+
   </div>
 </template>
 
 <script>
+import Actions from './components/Actions'
 import AppHeader from './components/AppHeader'
 import Movies from './components/Movies'
 
@@ -14,6 +17,7 @@ import movieData from './assets/movie-data.json'
 export default {
   name: 'app',
   components: {
+    Actions,
     AppHeader,
     Movies,
   },
