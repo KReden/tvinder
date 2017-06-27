@@ -2,7 +2,8 @@
   <div id="app">
     <AppHeader />
     <Movies :image="image" />
-    <Actions />
+    <Actions @handleLikes="handleLikes" @handleSkip="handleSkip"/>
+
 
   </div>
 </template>
@@ -24,6 +25,7 @@ export default {
 
   data() {
     return {
+      likes: 0,
       imageIndex: 0,
       movieData: movieData.posters,
     }
@@ -35,7 +37,30 @@ export default {
       const self = this
       return self.movieData[self.imageIndex]
     }
+  },
+
+  methods: {
+    handleLikes(vote) {
+      const self = this
+      self.likes += vote
+      self.incrementImage()
+    },
+
+    handleSkip() {
+      const self = this
+      self.incrementImage()
+    },
+
+    incrementImage() {
+      const self = this
+      self.imageIndex += 1
+      if(self.imageIndex > (self.movieData.length-1)) {
+        self.imageIndex = 0
+      }
+    }
   }
+
+
 }
 </script>
 

@@ -1,11 +1,11 @@
 <template>
   <div class="actions">
     <div class="controls">
-    <div class="icon-button">
+    <div class="icon-button" v-on:click="decrement()">
         <svgicon id="cancel" icon="cancel-circle" color="#04AC44" ></svgicon>
       </div>
-      <a id="skip" href="#" class="icon-button">Skip</a>
-    <div class="icon-button">
+      <a id="skip" href="#"  v-on:click.prevent="skip" class="icon-button">Skip</a>
+    <div class="icon-button" v-on:click="increment()">
       <svgicon id="heart" icon="heart" color="#04AC44"></svgicon>
     </div>
 
@@ -20,7 +20,20 @@ export default {
   name: 'actions',
 
   methods: {
-    // placeholder
+    skip() {
+      const self = this
+      self.$emit('handleSkip')
+    },
+
+    increment() {
+      const self = this
+      self.$emit('handleLikes', 1)
+    },
+
+    decrement() {
+      const self = this
+      self.$emit('handleLikes', -1)
+    }  
   }
 }
 
