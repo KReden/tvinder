@@ -4,9 +4,9 @@
       <h1>tvinder</h1>
     </div>
     <div class="header--right">
-      <h1>votes</h1>
+      <h1>likes</h1>
       <div class="header__data">
-        <h1>0</h1>
+        <h1>{{ likes }}</h1>
       </div>
     </div>
   </div>
@@ -14,8 +14,16 @@
 
 <script>
 export default {
-  name: 'header'
+  name: 'header',
+
+  props: {
+    likes: {
+      type: Number,
+      required: true
+    }
+  }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -25,7 +33,7 @@ export default {
   justify-content: space-between;
   background-color: #04AC44;
   color: #FFF;
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 
 .header__data {
