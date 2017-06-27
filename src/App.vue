@@ -20,10 +20,18 @@ export default {
 
   data() {
     return {
-      image: movieData.posters[0]
+      imageIndex: 0,
+      movieData: movieData.posters,
     }
 
   },
+
+  computed: {
+    image() {
+      const self = this
+      return self.movieData[self.imageIndex]
+    }
+  }
 }
 </script>
 
