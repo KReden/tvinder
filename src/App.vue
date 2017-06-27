@@ -1,17 +1,29 @@
 <template>
   <div id="app">
     <AppHeader />
+    <Movies :image="image" />
   </div>
 </template>
 
 <script>
 import AppHeader from './components/AppHeader'
+import Movies from './components/Movies'
+
+import movieData from './assets/movie-data.json'
 
 export default {
   name: 'app',
   components: {
     AppHeader,
-  }
+    Movies,
+  },
+
+  data() {
+    return {
+      image: movieData.posters[0]
+    }
+
+  },
 }
 </script>
 
