@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+    <AppHeader />
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
+import AppHeader from './components/AppHeader'
 
 export default {
   name: 'app',
   components: {
-    Hello
+    AppHeader,
   }
 }
 </script>
@@ -23,6 +22,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
 }
 </style>
