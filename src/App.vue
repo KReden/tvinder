@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <AppHeader />
+    <AppHeader :likes="likes" />
     <Movies :image="image" />
     <Actions @handleLikes="handleLikes" @handleSkip="handleSkip"/>
 
